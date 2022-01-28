@@ -45,16 +45,35 @@ associate__carousel.trigger('next.owl.carousel');
 /*   ----------- SLIDER -----------  */
  
 $( ".footer-body__description-social a" ).click(function( e ){e.preventDefault();});
-$(".sender-body__info-circle").click(function( event ) {
-$(".sender-body__info-circle").toggleClass("active-circle-circle");
-$(".sender-body__info-title").toggleClass("active-circle");
- $(".send-body-form2").toggleClass("send-body-form2-active"); 
+/*$(".sender-body__info-circle").click(function( event ) 
+{*/
+ /* $(".sender-body__info-circle").toggleClass("active-circle-circle");*/
+  /*$(".sender-body__info-title").toggleClass("active-circle");*/
+ /*$(".send-body-form2").toggleClass("send-body-form2-active"); */
+
+ 
+
+
+
 /*$(".send-body-form2").toggle(function () {
     $(".send-body-form2").css({height: '0px',display:'block'});
 } , function () {
     $(".send-body-form2").css({height: '600px'});
 } );*/
-});
+/*});*/
+
+var acc = document.getElementById("circle-btn");
+   acc.addEventListener("click", function() {
+
+    this.classList.toggle("active-circle-circle");
+
+ 
+    var panel = document.getElementById("form-2");
+    
+     panel.classList.toggle("send-body-form2-active");
+  });
+
+
 $(".burger-menu").click(function( event ) 
   {
     $(".burger-menu").addClass("burger-menu-active");
