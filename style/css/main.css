@@ -659,8 +659,8 @@ button::-moz-focus-inner {
   overflow: hidden;
   max-height: 0;
   width: 100%;
-  -webkit-transition: max-height 0.3s ease-out;
-          transition: max-height 0.3s ease-out; }
+  -webkit-transition: max-height 0.45s;
+          transition: max-height 0.45s; }
 
 .send-body-form2-active {
   max-height: 600px; }
