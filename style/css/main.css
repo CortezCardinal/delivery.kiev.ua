@@ -659,13 +659,11 @@ button::-moz-focus-inner {
   overflow: hidden;
   max-height: 0;
   width: 100%;
-  -webkit-transition: max-height  0.1s ease-in;
-          transition: max-height  0.1s ease-in; }
+  -webkit-transition: max-height 0.3s ease-out;
+          transition: max-height 0.3s ease-out; }
 
 .send-body-form2-active {
-  max-height: 600px;
-  -webkit-transition: max-height 0.1s ease-out;
-          transition: max-height 0.1s ease-out; }
+  max-height: 600px; }
 
 .form-group-check {
   width: 180px;
